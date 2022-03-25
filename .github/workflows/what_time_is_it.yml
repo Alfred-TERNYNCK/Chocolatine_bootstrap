@@ -1,0 +1,7 @@
+name : push date
+on : [push]
+jobs :
+  push dates :
+    run-on : "ubuntu-latest"
+    steps :
+      -run : "date" 
