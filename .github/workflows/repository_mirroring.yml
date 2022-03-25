@@ -1,6 +1,5 @@
 name: repository_mirroring.yml
 on: [push]
-permissions: {}
 jobs:
   action-checkout:
     runs-on: ubuntu-latest
