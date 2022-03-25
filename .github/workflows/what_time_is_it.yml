@@ -1,7 +1,7 @@
 name: what_time_is_it
 on: [push]
 jobs:
-  display_push_date:
-    runs-on: ubuntu-latest
-    steps:
-      - run: date 
+    display_push_date:
+      runs-on: ubuntu-latest
+      steps:
+        - run: date 
