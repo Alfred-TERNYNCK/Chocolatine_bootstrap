@@ -5,5 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - run: echo running on branch ${GITHUb_REF##*/}
+      - run: echo running on branch ${GITHUB_REF##*/}
       - run: du -skh --exclude=".git"
