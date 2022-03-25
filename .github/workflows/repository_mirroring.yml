@@ -11,4 +11,10 @@ jobs:
           target_repo_url:
             git@github.com:EpitechPromo2026/B-DOP-200-PAR-2-1-bschocolatine-alfred.ternynck.git
           ssh_private_key:
-            ${{ secrets.GITLAB_SSH_PRIVATE_KEY }}
+            ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDGV6Wdz61jSsdSq8ppGB7HDhhcoONoU4UFmLmq7R7Gu+9V\
+YSIEd6BdXNzA4A56iVddgYBFdQYA9R5MEL/8d4KagJZAcMcY0W86p2l4Ze8KDdJQ9fPDcxzGn281nuYCP/ny\
+HvHfIhCYrtWhLU8SOkLcD+XqWjyyb0OxAFqfBvmnijATxvoFl4yoI4v4HtwrBAhsykpJu/9BUHc0g6RECj60\
+cqVDiNuuvRUWffwGbfNm3WHfoZmne3jAP8Shi6swurzZQWuu+/Hxi5oQDvaBHac3Gb2jRE+aHicDlCTxMd3g\
+so5ZUaATFFwbJM3zQx4yvusL0yb2oYVnVmMMh2ZLBbpn0myTh62XpU8o+xioJL2fHSh+zC5AkrUUuZ8bbJV1\
+qRvZdW74B5Ma+X/fH52BkmqQbDZ5W65nLeATvso2CWNjsVZV3zyZWyVVqlmXiRMzTKPL4FbXwMJnw0m6USVr\
+YmO/0VnPJfGRBzKI07cgJwbDywfAYqijhhhJlpZPafzjEjk= aternynck@fedora
