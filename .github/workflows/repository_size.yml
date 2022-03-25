@@ -1,4 +1,4 @@
-name:  repository_size.yml
+name: repository_size.yml
 on: [push]
 jobs:
   action-checkout:
