@@ -1,5 +1,6 @@
 name: repository_mirroring.yml
 on: [push]
+permissions: {}
 jobs:
   action-checkout:
     runs-on: ubuntu-latest
@@ -7,20 +8,6 @@ jobs:
       - uses: actions/checkout@v3
       - uses: pixta-dev/repository-mirroring-action@v1
         with:
-          permissions:
-            actions: read|write|none
-            checks: read|write|none
-            contents: read|write|none
-            deployments: read|write|none
-            id-token: read|write|none
-            issues: read|write|none
-            discussions: read|write|none
-            packages: read|write|none
-            pages: read|write|none
-            pull-requests: read|write|none
-            repository-projects: read|write|none
-            security-events: read|write|none
-            statuses: read|write|none
           target_repo_url:
             git@github.com:EpitechPromo2026/B-DOP-200-PAR-2-1-bschocolatine-alfred.ternynck.git
           ssh_private_key:
