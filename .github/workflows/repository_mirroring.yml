@@ -1,7 +1,8 @@
 name: repository_mirroring.yml
 on: [push]
 jobs:
-  runs-on: ubuntu-latest
+  action-checkout:
+    run-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
         with:
